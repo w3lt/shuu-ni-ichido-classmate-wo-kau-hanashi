@@ -11,13 +11,13 @@ export default function Home() {
           alt="Shuu ni Ichido Classmate wo Kau Hanashi Logo"
           style={{ width: 200, marginBottom: 32 }}
         />
-        <h1>Welcome to Shuu ni Ichido Classmate wo Kau Hanashi</h1>
+        <h1>Shuu ni Ichido Classmate wo Kau Hanashi ~ Futari no Jikan, Iiwake no Gosen'en ~</h1>
         <Link
           className="button button--primary button--lg"
           to="/wn/chapter-111"
           style={{ marginTop: 32 }}
         >
-          Read Web Novel
+          Đọc Truyện (Web Novel)
         </Link>
       </main>
     </Layout>
