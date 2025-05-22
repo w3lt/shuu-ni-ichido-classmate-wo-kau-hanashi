@@ -61,20 +61,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            from: '/',
-            to: '/wn/chapter-111',
-          },
-        ],
-      },
-    ],
-  ],
 };
 
 export default config;
