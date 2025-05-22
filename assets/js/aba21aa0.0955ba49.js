@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshuu_ni_ichido_classmate_wo_kau_hanashi=self.webpackChunkshuu_ni_ichido_classmate_wo_kau_hanashi||[]).push([[742],{7093:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
