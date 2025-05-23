@@ -55,6 +55,20 @@ const config: Config = {
         src: 'img/logo.png',
         href: '/wn/what-i-want-from-sendai/chapter-111',
       },
+      items: [
+        {
+          href: 'https://discordapp.com/users/866989139195199508',
+          position: 'right',
+          className: 'header-discord-link', // This adds a GitHub icon if you add the CSS below
+          'aria-label': 'Discord',
+        },
+        {
+          href: 'https://github.com/w3lt/shuu-ni-ichido-classmate-wo-kau-hanashi',
+          position: 'right',
+          className: 'header-github-link', // This adds a GitHub icon if you add the CSS below
+          'aria-label': 'GitHub repository',
+        },
+      ]
     },
     prism: {
       theme: prismThemes.github,

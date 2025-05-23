@@ -28,3 +28,29 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.header-github-link:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('/img/github-mark.svg') no-repeat center center;
+  background-size: contain;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+html[data-theme='dark'] .header-github-link:before {
+  background-image: url('/img/github-mark-white.svg');
+}
+
+.header-discord-link {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('/img/discord-icon.svg') no-repeat center center;
+  background-size: contain;
+  margin-right: 8px;
+  vertical-align: middle;
+}
