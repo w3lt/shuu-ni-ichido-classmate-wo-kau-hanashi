@@ -53,7 +53,7 @@ const config: Config = {
       logo: {
         alt: '',
         src: 'img/logo.png',
-        href: '/wn/chapter-111',
+        href: '/wn/what-i-want-from-sendai/chapter-111',
       },
     },
     prism: {
