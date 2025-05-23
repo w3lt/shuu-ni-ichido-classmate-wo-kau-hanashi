@@ -1,6 +1,6 @@
 ---
-title: 112. Những Điều Tôi Muốn Từ Sendai-san (2)
-sidebar_position: 1
+title: Chapter 112
+sidebar_position: 2
 ---
 
 # 112. Những Điều Tôi Muốn Từ Sendai-san (2)

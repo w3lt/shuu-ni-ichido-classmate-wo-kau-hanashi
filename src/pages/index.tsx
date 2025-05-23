@@ -14,7 +14,7 @@ export default function Home() {
         <h1>Shuu ni Ichido Classmate wo Kau Hanashi ~ Futari no Jikan, Iiwake no Gosen'en ~</h1>
         <Link
           className="button button--primary button--lg"
-          to="/wn/chapter-111"
+          to="/wn/what-i-want-from-sendai/chapter-111"
           style={{ marginTop: 32 }}
         >
           Đọc Truyện (Web Novel)

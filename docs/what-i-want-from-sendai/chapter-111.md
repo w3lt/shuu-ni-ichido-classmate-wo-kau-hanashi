@@ -1,5 +1,5 @@
 ---
-title: 111. Những Điều Tôi Muốn Từ Sendai-san (1)
+title: Chapter 111
 sidebar_position: 1
 ---
 
