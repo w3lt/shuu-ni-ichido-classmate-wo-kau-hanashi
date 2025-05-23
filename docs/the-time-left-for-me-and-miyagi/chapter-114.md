@@ -36,10 +36,6 @@ Khi tôi quay lại nhìn Miyagi, cô ấy đã rời khỏi giường từ lúc
 "Cái đó là..."
 
 Tôi trở lại bàn mà không cầm theo cuốn manga nào, và Miyagi đưa chiếc hộp đỏ cho tôi một cách hơi ép buộc.
-docln.net
-+1
-docln.net
-+1
 
 "Khi đi mua sắm, tôi thấy nó và nghĩ đến cậu."
 
@@ -86,10 +82,6 @@ Tôi ước gì cô ấy có thể tặng với tâm trạng tốt hơn, nhưng 
 "Đúng rồi. Tôi có nên đút cho cậu ăn như năm ngoái không?"
 
 Miyagi chỉ vào viên sôcôla.
-amiami.com
-+1
-docln.net
-+1
 
 Sôcôla tôi tặng là loại truffle giống như năm ngoái, cả về số lượng. Tôi đã nghĩ đến việc làm loại khác, nhưng cảm thấy việc làm thứ quá cầu kỳ sẽ trở nên phô trương, nên tôi đã từ bỏ.
 
