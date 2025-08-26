@@ -17,5 +17,6 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
-  }
+  },
+  base: "/shuu-ni-ichido-classmate-wo-kau-hanashi/"
 })
