@@ -13,7 +13,6 @@ export default class Ln {
   public arcs: Arc[]
 
   constructor() {
-    console.trace("Loading LN data...")
     const jsonFiles = import.meta.glob("@/contents/**/conf.json", { eager: true, query: "?raw", import: "default" })
     const chapterFiles = import.meta.glob("@/contents/**/*.md", { eager: true, query: "?raw", import: "default" })
     const arcs: Arc[] = []
