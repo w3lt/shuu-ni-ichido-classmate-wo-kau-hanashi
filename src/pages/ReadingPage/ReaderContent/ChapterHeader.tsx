@@ -26,7 +26,6 @@ export default function ChapterHeader({
       <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent mb-4 leading-tight">
         {title}
       </h1>
-      <p className="text-lg text-muted-foreground font-medium">Story About Buying My Classmate Once A Week</p>
     </motion.div>
   )
 }

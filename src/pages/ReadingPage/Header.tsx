@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 import {
   Home,
   BookOpen,
-  Settings,
   PanelLeftClose,
   PanelLeftOpen,
 } from "lucide-react"
@@ -55,9 +54,9 @@ export default function ReadingPageHeader() {
           >
             A+
           </Button>
-          <Button variant="ghost" size="sm" className="hover:bg-primary/10">
+          {/* <Button variant="ghost" size="sm" className="hover:bg-primary/10">
             <Settings className="h-4 w-4" />
-          </Button>
+          </Button> */}
         </div>
       </div>
     </header>

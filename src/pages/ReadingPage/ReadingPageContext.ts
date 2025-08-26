@@ -1,3 +1,4 @@
+import type Ln from "@/utils/ln"
 import { createContext, type Dispatch, type SetStateAction } from "react"
 
 const ReadingPageContext = createContext<{
@@ -5,11 +6,17 @@ const ReadingPageContext = createContext<{
   setFontSize: Dispatch<SetStateAction<number>>
   sidebarCollapsed: boolean
   setSidebarCollapsed: Dispatch<SetStateAction<boolean>>
+  ln: Ln
+  currentChapter: { arcNumber: number, chapterNumber: number }
+  setCurrentChapter: Dispatch<SetStateAction<{ arcNumber: number, chapterNumber: number }>>
 }>({
   fontSize: 18,
   setFontSize: () => null,
   sidebarCollapsed: false,
-  setSidebarCollapsed: () => null
+  setSidebarCollapsed: () => null,
+  ln: null!,
+  currentChapter: null!,
+  setCurrentChapter: () => null,
 })
 
 export default ReadingPageContext

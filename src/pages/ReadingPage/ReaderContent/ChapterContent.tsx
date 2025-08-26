@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import ReadingPageContext from "../ReadingPageContext"
+import Markdown from "react-markdown"
 
 interface Props {
   content: string
@@ -11,6 +12,7 @@ export default function ChapterContent({
   content
 }: Props) {
   const { fontSize } = useContext(ReadingPageContext)
+  console.log("Content:", content)
 
   return (
     <motion.div
@@ -25,17 +27,18 @@ export default function ChapterContent({
             className="text-foreground leading-relaxed"
             style={{ fontSize: `${fontSize}px`, lineHeight: 1.8 }}
           >
-            {content.split("\n\n").map((paragraph, index) => (
-              <motion.p
-                key={index}
-                className="mb-8 last:mb-0 first-letter:text-4xl first-letter:font-bold first-letter:text-primary first-letter:float-left first-letter:mr-2 first-letter:mt-1"
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                {paragraph.trim()}
-              </motion.p>
-            ))}
+            <Markdown
+              components={{
+                h1: ({ ...props }) => (
+                  <h1 className="text-4xl font-bold mb-6" {...props} />
+                ),
+                p: ({ ...props }) => (
+                  <p className="mb-4" {...props} />
+                )
+              }}
+            >
+              {content}
+            </Markdown>
           </div>
         </CardContent>
       </Card>

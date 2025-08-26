@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { motion, useInView, type Variants } from "framer-motion"
 import { useRef } from "react"
+import { useNavigate } from "react-router"
 
 interface Props {
   staggerContainer: Variants
@@ -11,6 +12,7 @@ export default function CtASection({
   staggerContainer,
   fadeInUp
 }: Props) {
+  const navigate = useNavigate()
   const ctaRef = useRef(null)
   const ctaInView = useInView(ctaRef, { once: true, margin: "-100px" })
 
@@ -33,6 +35,7 @@ export default function CtASection({
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg border border-primary/20"
+            onClick={() => navigate("/reading")}
           >
             Begin Reading
           </Button>
