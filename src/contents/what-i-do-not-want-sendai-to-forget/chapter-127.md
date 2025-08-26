@@ -1,5 +1,3 @@
-# 127 Điều tôi không muốn Sendai-san quên (1)
-
 Tôi cầm con mèo đen trên kệ sách và nằm dài trên giường.  
 Đã đến giờ có thể đi ngủ rồi, nhưng tôi không buồn ngủ.
 

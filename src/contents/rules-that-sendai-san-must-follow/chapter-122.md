@@ -1,5 +1,3 @@
-# 122 Những luật lệ dành cho Sendai-san (2)
-
 Tôi biết điểm đến.  
 Nhưng thật ra lại chẳng rõ nó ở đâu.  
 

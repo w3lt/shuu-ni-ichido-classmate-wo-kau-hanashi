@@ -1,5 +1,3 @@
-# 121 Những luật lệ dành cho Sendai-san (1)
-
 Tôi đi ngủ mà không đặt báo thức.  
 Thế mà vừa quá sáu giờ sáng chủ nhật, tôi đã mở mắt.
 

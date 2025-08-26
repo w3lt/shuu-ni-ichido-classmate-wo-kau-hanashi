@@ -1,5 +1,3 @@
-# 112. Những Điều Tôi Muốn Từ Sendai-san (2)
-
 Tôi chuyển con mèo đen trên gối đầu giường sang kệ sách.
 
 Khi tôi đang trả lời tin nhắn từ Maika và Ami thì chuông cửa vang lên. Như đã hẹn trước năm ngày, tôi nhắn cho Sendai-san “Đến ngay đi” sau khi tan học, nên chắc chắn đó là cô ấy.

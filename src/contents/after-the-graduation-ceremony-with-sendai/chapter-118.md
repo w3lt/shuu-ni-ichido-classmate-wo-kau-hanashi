@@ -1,5 +1,3 @@
-# 118. Sau lễ tốt nghiệp với Sendai-san (2)
-
 Tôi cởi áo khoác ngay trước cửa.  
 Vào phòng trước và bật điều hòa, thì Sendai-san theo sau, mở nút thứ hai trên áo sơ mi, nhưng không cởi blazer.
 

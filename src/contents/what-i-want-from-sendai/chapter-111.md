@@ -1,5 +1,3 @@
-# 111. Những Điều Tôi Muốn Từ Sendai-san (1)
-
 Ngày hẹn thứ năm là ngày mai, và tâm trạng tôi thật nặng nề.
 
 Sendai-san hỏi kết quả bài kiểm tra của tôi, và tôi trả lời là “tàm tạm”, nhưng đó là một lời nói dối. Nói là “tàm tạm” thì vẫn còn quá tốt so với kết quả thực tế. Tôi nghĩ mình sẽ làm tốt hơn, nên thật lòng mà nói, không muốn gọi kết quả đó là “tàm tạm”. Nếu tôi thành thật nói ra điều đó và bị Sendai-san thất vọng, thì sẽ chẳng vui chút nào.

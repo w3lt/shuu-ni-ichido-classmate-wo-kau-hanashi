@@ -1,5 +1,3 @@
-# 111. Những Điều Tôi Muốn Từ Sendai-san (3)
-
 Tôi đang ở trong phòng của Sendai-san.
 
 Khi nghĩ về việc thời gian chúng tôi có thể ở bên nhau còn lại bao nhiêu, tôi cảm thấy u sầu.

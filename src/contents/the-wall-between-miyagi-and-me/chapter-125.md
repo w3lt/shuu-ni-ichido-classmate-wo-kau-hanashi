@@ -1,5 +1,3 @@
-# 125 Bức tường giữa tôi và Miyagi (2)
-
 Tôi đi lên cầu thang, lên tầng ba.  
 Bước dọc hành lang đến cửa chính, rút chìa khóa ra.  
 

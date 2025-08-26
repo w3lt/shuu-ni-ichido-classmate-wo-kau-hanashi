@@ -1,5 +1,3 @@
-# 116. Thời gian còn lại cho tôi và Miyagi (3)
-
 Còn khoảng hai tiếng nữa mới đến đoạn credit cuối phim.
 
 Tôi cùng Miyagi rời khỏi chỗ ngồi sau khi xem xong toàn bộ.

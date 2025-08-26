@@ -5,13 +5,16 @@ import { useTranslation } from "react-i18next"
 interface Props {
   title: string
   chapter: number
+  index: number
 }
 
 export default function ChapterHeader({
   title,
-  chapter
+  chapter,
+  index
 }: Props) {
   const { t } = useTranslation("pages", { keyPrefix: "readingPage.readingContent.header" })
+
   return (
     <motion.div
       className="mb-12"
@@ -26,7 +29,7 @@ export default function ChapterHeader({
         <div className="h-px bg-gradient-to-r from-primary/30 to-transparent flex-1"></div>
       </div>
       <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent mb-4 leading-tight">
-        {title}
+        {title} ({index})
       </h1>
     </motion.div>
   )

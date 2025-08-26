@@ -1,5 +1,3 @@
-# 119. Điều gì là bình thường đối với tôi và Miyagi (1)
-
 Mùa xuân đến, chuyện dọn nhà cũng xong xuôi.
 
 Tôi đang sống những ngày không nhận năm nghìn yên từ Miyagi.

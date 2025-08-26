@@ -1,5 +1,3 @@
-# 115. Thời gian còn lại cho tôi và Miyagi (2)
-
 Ngày mai, thế giới sẽ diệt vong.
 
 Nếu có ai đó nói vậy, tôi nghĩ mình sẽ tin mà chẳng chút nghi ngờ.

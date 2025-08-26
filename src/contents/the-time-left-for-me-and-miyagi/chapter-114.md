@@ -1,5 +1,3 @@
-# 114. Thời gian còn lại cho tôi và Miyagi (1)
-
 "Cho đến khi kỳ thi kết thúc, chúng ta sẽ không gặp nhau."
 
 Đó là đề xuất hợp lý và chính đáng mà Miyagi đã đưa ra. Giờ đây, khi mọi thứ đã kết thúc, cô ấy nằm dài trên giường, thư giãn. Cả tôi và cô ấy đều đã hoàn thành tất cả các kỳ thi cần thiết. Dù chưa biết kết quả ra sao, nhưng vì đã làm hết sức, chúng tôi có quyền cảm thấy nhẹ nhõm. Tuy nhiên, vì tôi đã hỏi về kết quả thi ngay khi gặp mặt, tâm trạng của Miyagi trở nên tồi tệ.

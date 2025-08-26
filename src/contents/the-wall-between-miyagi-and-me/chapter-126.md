@@ -1,5 +1,3 @@
-# 126 Bức tường giữa tôi và Miyagi (3)
-
 Kế hoạch cho tuần lễ vàng vẫn chưa quyết định.  
 
 Gia đình không liên lạc.  

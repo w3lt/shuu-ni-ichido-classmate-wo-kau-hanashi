@@ -1,5 +1,3 @@
-# 117. Sau lễ tốt nghiệp với Sendai-san (1)
-
 Dù hôm nay là buổi sáng của lễ tốt nghiệp, cũng không có gì đặc biệt xảy ra cả.
 
 Tôi biết rõ điều đó.

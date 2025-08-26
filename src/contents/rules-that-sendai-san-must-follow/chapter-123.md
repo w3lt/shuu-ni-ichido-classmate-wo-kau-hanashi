@@ -1,5 +1,3 @@
-# 123 Những luật lệ dành cho Sendai-san (3)
-
 Trên bàn là dĩa bánh mì nướng kèm trứng bác, cùng một cốc nước cam.  
 Đối diện tôi là Sendai-san đang ngồi.  
 

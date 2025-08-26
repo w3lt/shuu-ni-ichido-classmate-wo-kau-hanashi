@@ -1,5 +1,3 @@
-# 120. Điều gì là bình thường đối với tôi và Miyagi (2)
-
 “Có hơi nhiều quá không vậy?”
 
 Tôi đặt chiếc túi hơi to lên bàn rồi nhìn Miyagi.

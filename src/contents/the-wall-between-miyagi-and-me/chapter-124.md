@@ -1,5 +1,3 @@
-# 124 Bức tường giữa tôi và Miyagi (1)
-
 Tôi đưa tay ra phía Miyagi.  
 Những ngón tay lướt qua mái tóc đen, khe khẽ vuốt.  
 Từ đó, trượt xuống má, rồi chạm lên đôi môi khép kín.  
@@ -36,7 +34,7 @@ Tôi cắn khẽ vai Miyagi.
 Da mềm mại, ấm áp.  
 Nhưng cảm giác mơ hồ, không rõ được chính xác độ mềm hay độ nóng ấy.  
 
-「Miyagi」  
+"Miyagi"  
 
 Tôi gọi, nhưng chẳng có lời đáp.  
 Khao khát nghe thấy giọng cô, tôi kéo đi lớp áo lót.  
@@ -56,7 +54,7 @@ Dù biết rõ chỉ là mơ, tôi vẫn ngần ngại có nên đi xa hơn khô
 
 Rồi, bằng giọng như đang nài nỉ, Miyagi khẽ gọi:  
 
-「Sendai-san」  
+"Sendai-san"  
 
 Không thể nào.  
 Miyagi tôi biết sẽ không bao giờ ngoan ngoãn như vậy, càng không thốt ra lời van nài.  
@@ -70,7 +68,7 @@ Và――――。
 
 Bàn tay tôi chạm phải chiếc điện thoại rung lên inh ỏi vì chuông báo thức.  
 
-「…Biết ngay mà.」  
+"…Biết ngay mà."  
 
 Tôi thở dài, tắt báo thức.  
 Đặt điện thoại xuống, áp bàn tay lên bức tường cạnh giường.  
@@ -84,7 +82,7 @@ Khi chúng tôi bắt đầu sống chung, tôi hiểu rằng không thể để
 
 Bởi Miyagi ở ngay trong tầm tay, nên tôi mới mơ thấy những giấc mơ đó.  
 
-「…Thật là tệ hại.」  
+"…Thật là tệ hại."  
 
 Đây không phải giấc mơ đẹp.  
 Chắc chắn Miyagi chẳng thể tưởng tượng nổi, ngay bên kia bức tường có một kẻ vừa mơ thấy những điều như thế về cô.  
@@ -111,11 +109,11 @@ Chúng tôi vốn chỉ quy định cùng nấu bữa tối, còn bữa sáng th
 
 Miyagi không giỏi nấu ăn, nhưng chỉ riêng việc được ăn món do người khác làm đã khiến tôi thấy ngon hơn hẳn.  
 
-「Chào buổi sáng.」  
+"Chào buổi sáng."  
 
 Tôi gọi về phía lưng cô ấy.  
 
-「Chào buổi sáng.」  
+"Chào buổi sáng."  
 
 Một câu đáp đơn giản, nhưng buổi sáng có người nấu ăn sẵn thế này thật dễ chịu.  
 
@@ -127,26 +125,26 @@ Trước kia, khi chưa sống chung, chúng tôi ở lớp khác nhau, nếu mu
 Chỉ cần mở cửa phòng, Miyagi đã ở đó.  
 Khoảng cách gần đến mức, chẳng thể trốn đi đâu được.  
 
-「Cậu nấu món gì vậy?」  
+"Cậu nấu món gì vậy?"  
 
 Tôi hỏi, chỉ để phá tan không khí. Nhưng Miyagi không trả lời.  
 
-「Miyagi?」  
+"Miyagi?"  
 
 Gọi một lần nữa, cô ấy mới khẽ đáp.  
 Trong chảo, một thứ gì đó nửa chừng giữa trứng ốp la và trứng bác hiện ra.  
 
-「Lòng đỏ bị vỡ à?」  
-「Tự nó vỡ thôi.」  
+"Lòng đỏ bị vỡ à?"  
+"Tự nó vỡ thôi."  
 
 Miyagi thì thầm, quay sang nhìn tôi.  
 
-「Ốp la hay trứng bác thì cuối cùng cũng vào bụng thôi, đâu khác gì.」  
-「Ừ thì… đúng.」  
+"Ốp la hay trứng bác thì cuối cùng cũng vào bụng thôi, đâu khác gì."  
+"Ừ thì… đúng."  
 
 Tôi cảm nhận ánh mắt cô, nhưng chẳng thể đối diện trực tiếp.  
 
-「…Mình đi rửa mặt đã.」  
+"…Mình đi rửa mặt đã."  
 
 Nói xong, tôi quay lưng đi.  
 Sau lưng, Miyagi chỉ “Ừ” một tiếng.  
@@ -159,7 +157,7 @@ Những giấc mơ dạo gần đây ngày càng chứa nhiều thứ chưa từ
 
 Tôi tự vỗ má một cái, rồi quay lại phòng bếp.  
 
-「Xong rồi nè.」  
+"Xong rồi nè."  
 
 Miyagi nói. Trên bàn đã có đĩa đồ ăn và cốc nước cam. Trứng được đảo thêm, gần giống trứng bác. Cả bánh mì và xúc xích đều đã vàng đều vừa đẹp mắt.  
 
@@ -167,30 +165,30 @@ Tôi ngồi xuống, nghe Miyagi nhỏ giọng “Itadakimasu”. Tôi cũng l�
 
 Cái “luật” phải ăn cùng nhau đã được thực hiện theo một cách vượt ngoài mong đợi của tôi. Tôi chỉ nghĩ đến bữa tối thôi, vậy mà giờ cả bữa sáng Miyagi cũng cùng ngồi ăn.  
 
-「Dạo này cậu có mua manga không?」  
+"Dạo này cậu có mua manga không?"  
 
 Tôi hỏi, mắt vẫn tránh ánh nhìn của cô ấy.  
 
-「Có.」  
-「Vậy cho tôi mượn với. Chắc cậu có cái nào hay chứ?」  
-「Cái nào cũng được à?」  
-「Miễn là hay.」  
+"Có."  
+"Vậy cho tôi mượn với. Chắc cậu có cái nào hay chứ?"  
+"Cái nào cũng được à?"  
+"Miễn là hay."  
 
 Tôi cắn miếng bánh mì phết bơ mứt, liếc sang tay cô.  
 Miyagi đang xiên xúc xích đưa lên miệng.  
 
-「Nhưng tôi đâu biết thứ cậu thấy hay là gì.」  
+"Nhưng tôi đâu biết thứ cậu thấy hay là gì."  
 
 Giọng cô nghe khó chịu.  
 Tôi ngẩng đầu—và trong khoảnh khắc, ánh mắt chạm nhau. Tim đập nhanh hơn một chút.  
 
 Trong đầu thoáng nghĩ: nếu lấy cớ mượn manga, có lẽ tôi sẽ được vào phòng cô.  
 
-「Thế thì… để tôi tự chọn trực tiếp nhé?」  
+"Thế thì… để tôi tự chọn trực tiếp nhé?"  
 
 Thật ra hôm nay tôi chẳng muốn lại gần Miyagi.  
 Nhưng cũng không thể phủ nhận, một phần trong tôi lại muốn.  
 
-「…Tôi sẽ cho mượn. Nhưng tôi chọn, rồi đưa cho cậu.」  
+"…Tôi sẽ cho mượn. Nhưng tôi chọn, rồi đưa cho cậu."  
 
 Nói xong, Miyagi cắn một miếng bánh mì.  
