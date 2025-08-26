@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { motion, useInView, type Variants } from "framer-motion"
 import { useRef } from "react"
+import { Trans, useTranslation } from "react-i18next"
 
 interface Props {
   staggerContainer: Variants
@@ -13,6 +13,7 @@ export default function HeroSection({
   staggerContainer,
   fadeInUp
 }: Props) {
+  const { t } = useTranslation("pages", { keyPrefix: "landingPage.heroSection" })
   const heroRef = useRef(null)
   const heroInView = useInView(heroRef, { once: true, margin: "-100px" })
 
@@ -43,14 +44,19 @@ export default function HeroSection({
             <motion.div className="space-y-4" variants={fadeInUp}>
               <div className="flex gap-2 flex-wrap justify-center">
                 <Badge className="bg-secondary text-secondary-foreground px-4 py-2 text-sm font-medium">
-                  Fan Translation
+                  {t("fanTranslation")}
                 </Badge>
                 <Badge variant="outline" className="px-4 py-2 text-sm font-medium">
-                  Web Novel
+                  {t("webNovel")}
                 </Badge>
               </div>
               <h1 className="font-sans font-bold text-4xl md:text-6xl leading-tight text-foreground">
-                Story About Buying My <span className="text-primary">Classmate</span> Once A Week
+                <Trans
+                  i18nKey={t("title")}
+                  components={[
+                    <span key={0} className="text-primary" />
+                  ]}
+                />
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 週に一度クラスメイトを買う話 ～ふたりの時間、言い訳の五千円～
@@ -58,9 +64,7 @@ export default function HeroSection({
             </motion.div>
 
             <motion.p className="text-lg text-foreground leading-relaxed max-w-3xl mx-auto" variants={fadeInUp}>
-              Read the Vietnamese translation of this heartwarming Japanese web novel about unexpected connections
-              between two high school students. Follow their weekly encounters as a simple arrangement becomes
-              something much more meaningful.
+              {t("description")}
             </motion.p>
 
             <motion.div
@@ -68,20 +72,24 @@ export default function HeroSection({
               variants={fadeInUp}
             >
               <p className="text-sm text-muted-foreground">
-                <strong>Note:</strong> This is an unofficial fan translation. All rights belong to the original author
-                and publisher.
+                <Trans
+                  i18nKey={t("note")}
+                  components={[
+                    <strong key={0} />
+                  ]}
+                />
               </p>
             </motion.div>
 
             {/* Call to Action Buttons */}
-            <motion.div className="flex flex-col sm:flex-row gap-4 justify-center" variants={fadeInUp}>
+            {/* <motion.div className="flex flex-col sm:flex-row gap-4 justify-center" variants={fadeInUp}>
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
               >
                 Read Chapter 1
               </Button>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function ReaderContent() {
     <main className="flex-1 transition-all duration-300">
       <div className="max-w-4xl mx-auto px-8 py-12">
         {/* Chapter Header */}
-        <ChapterHeader volume={1} title={title} />
+        <ChapterHeader chapter={currentChapter.chapterNumber} title={title} />
         <ChapterContent content={content} />
 
         <NavigationController />

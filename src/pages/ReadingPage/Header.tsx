@@ -7,8 +7,10 @@ import {
   PanelLeftOpen,
 } from "lucide-react"
 import ReadingPageContext from "./ReadingPageContext"
+import { useTranslation } from "react-i18next"
 
 export default function ReadingPageHeader() {
+  const { t } = useTranslation("pages", { keyPrefix: "readingPage.header" })
   const { fontSize, setFontSize, sidebarCollapsed, setSidebarCollapsed } = useContext(ReadingPageContext)
 
   return (
@@ -19,21 +21,21 @@ export default function ReadingPageHeader() {
             variant="ghost"
             size="sm"
             onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
-            className="hover:bg-primary/10 transition-all duration-200"
+            className="hover:bg-primary/70 transition-all duration-200"
           >
             {sidebarCollapsed ? <PanelLeftOpen className="h-4 w-4" /> : <PanelLeftClose className="h-4 w-4" />}
           </Button>
           <a href="/">
-            <Button variant="ghost" size="sm" className="hover:bg-primary/10 transition-all duration-200">
+            <Button variant="ghost" size="sm" className="hover:bg-primary/70 transition-all duration-200">
               <Home className="h-4 w-4 mr-2" />
-              Home
+              {t("home")}
             </Button>
           </a>
         </div>
 
         <div className="flex items-center gap-3 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
           <BookOpen className="h-5 w-5 text-primary" />
-          <span className="font-bold text-lg">Reading Mode</span>
+          <span className="font-bold text-lg">{t("title")}</span>
         </div>
 
         <div className="flex items-center gap-3">
@@ -41,7 +43,7 @@ export default function ReadingPageHeader() {
             variant="outline"
             size="sm"
             onClick={() => setFontSize(Math.max(14, fontSize - 2))}
-            className="hover:bg-primary/10 border-primary/30 transition-all duration-200"
+            className="hover:bg-primary/70 border-primary/30 transition-all duration-200"
           >
             A-
           </Button>
@@ -50,7 +52,7 @@ export default function ReadingPageHeader() {
             variant="outline"
             size="sm"
             onClick={() => setFontSize(Math.min(24, fontSize + 2))}
-            className="hover:bg-primary/10 border-primary/30 transition-all duration-200"
+            className="hover:bg-primary/70 border-primary/30 transition-all duration-200"
           >
             A+
           </Button>

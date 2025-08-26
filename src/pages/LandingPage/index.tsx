@@ -1,7 +1,7 @@
 import { type Variants } from "framer-motion"
-import LandingPageHeader from "./LandingPageHeader"
+import Header from "./Header"
 import HeroSection from "./HeroSection"
-import TranslationStatusSection from "./TranslationStatusSection"
+// import TranslationStatusSection from "./TranslationStatusSection"
 import AboutSection from "./AboutSection"
 import CtASection from "./CallToActionSection"
 import Footer from "./Footer"
@@ -30,7 +30,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-card to-background">
       {/* Header */}
-      <LandingPageHeader />
+      <Header />
 
       {/* Hero Section */}
       <HeroSection
@@ -39,10 +39,10 @@ export default function LandingPage() {
       />
 
       {/* Translation Status Section */}
-      <TranslationStatusSection
+      {/* <TranslationStatusSection
         staggerContainer={staggerContainer}
         fadeInUp={fadeInUp}
-      />
+      /> */}
 
       {/* About Section */}
       <AboutSection

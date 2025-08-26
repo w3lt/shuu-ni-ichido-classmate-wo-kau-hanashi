@@ -1,0 +1,18 @@
+{
+  "title": "Thông Tin Bản Dịch",
+  "description": "Mang những câu chuyện đến với độc giả Việt Nam",
+  "content": "Đây là một dự án dịch phi lợi nhuận nhằm giúp độc giả Việt Nam tiếp cận tác phẩm web novel tuyệt đẹp này từ Nhật Bản. Mục tiêu của chúng tôi là giữ trọn vẹn sức hút của câu chuyện gốc, đồng thời mang đến trải nghiệm đọc dễ tiếp nhận và thú vị hơn cho nhiều người.",
+  "subContent": "Câu chuyện xoay quanh hai học sinh trung học, những buổi gặp gỡ hàng tuần của họ dần trở nên ý nghĩa hơn. Mỗi chương là một hành trình khám phá sự gắn kết, thấu hiểu và can đảm mở lòng với một người khác.",
+  "author": {
+    "originalAuthor": "Tác Giả",
+    "name": "Haneda Usa"
+  },
+  "illustrator": {
+    "illustrator": "Minh Hoạ",
+    "name": "U35"
+  },
+  "publisher": {
+    "publisher": "Nhà Xuất Bản",
+    "name": "Fantasia Bunko"
+  }
+}

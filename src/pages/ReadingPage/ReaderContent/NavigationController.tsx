@@ -6,8 +6,10 @@ import {
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import ReadingPageContext from "../ReadingPageContext"
+import { useTranslation } from "react-i18next"
 
 export default function NavigationController() {
+  const { t } = useTranslation("pages", { keyPrefix: "readingPage.readingContent.navigationController" })
   const { currentChapter, setCurrentChapter, ln } = useContext(ReadingPageContext)
   const currentArc = ln.arcs[currentChapter.arcNumber - 1]
   const currentChapterIndex = currentChapter.chapterNumber - currentArc.chapters[0].number + 1
@@ -40,11 +42,11 @@ export default function NavigationController() {
         onClick={goPreviousChapter}
       >
         <ChevronLeft className="h-4 w-4 mr-2" />
-        Previous Chapter
+        {t("previousChapter")}
       </Button>
 
       <div className="text-center bg-background/80 backdrop-blur-sm rounded-full px-6 py-2 border border-primary/20">
-        <p className="text-sm font-medium text-muted-foreground">Chapter {currentChapterIndex} of {currentArc.chapters.length}</p>
+        <p className="text-sm font-medium text-muted-foreground">{t("chapter")} {currentChapterIndex} / {currentArc.chapters.length}</p>
       </div>
 
       <Button
@@ -52,7 +54,7 @@ export default function NavigationController() {
         onClick={goNextChapter}
         disabled={currentArc.position === ln.arcs.length && currentChapterIndex === currentArc.chapters.length}
       >
-        Next Chapter
+        {t("nextChapter")}
         <ChevronRight className="h-4 w-4 ml-2" />
       </Button>
     </motion.div>

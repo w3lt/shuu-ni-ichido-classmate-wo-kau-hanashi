@@ -1,69 +1,74 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚✨ Story About Buying My Classmate Once A Week
 
-Currently, two official plugins are available:
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Beautiful+Web+Novel+Reading+Platform;Vietnamese+Translation+Available;Smooth+Animations+%26+Modern+Design" alt="Typing SVG" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> 🌟 **A stunning, animated reading experience for web novel enthusiasts**
 
-## Expanding the ESLint configuration
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF69B4?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+</div>
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🎭 What Makes This Special?
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<table>
+<tr>
+<td width="50%">
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🎨 **Visual Excellence**
+- Glass morphism effects
+- Smooth scroll animations  
+- Responsive design magic
+- Beautiful typography
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+</td>
+<td width="50%">
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📖 **Reading Bliss**
+- Distraction-free interface
+- Story arc organization
+- Multi-language support
+- Customizable experience
+
+</td>
+</tr>
+</table>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ⚛️ **React** | 19 | UI Framework |
+| 📘 **TypeScript** | 5 | Type Safety |
+| 🎨 **Tailwind** | 4 | Styling |
+| 🎬 **Framer Motion** | 12 | Animations |
+
+</div>
+
+## 🌟 Features
+
+- 🎯 **Story Arcs** - Organized chapter navigation
+- 🌐 **Multi-language** - English & Vietnamese
+- 📱 **Mobile Ready** - Works everywhere
+- ⚡ **Lightning Fast** - Optimized performance
+
+## 💫 Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/w3lt/shuu-ni-ichido-classmate-wo-kau-hanashi)
+[![Discord](https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/866989139195199508)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+**Made with 💜 for web novel readers**
+
+</div>
