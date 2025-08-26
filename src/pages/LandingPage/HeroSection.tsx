@@ -33,7 +33,7 @@ export default function HeroSection({
               <div className="relative w-64 h-80 md:w-80 md:h-96 rounded-lg overflow-hidden shadow-2xl hover:scale-105 transition-transform duration-300">
                 <AspectRatio ratio={3 / 4} className="relative w-full">
                   <img
-                    src="/shuu-ni-ichido-classmate-wo-kau-hanashi/images/cover-volume-4.png"
+                    src="/images/cover-volume-4.png"
                     alt="Story About Buying My Classmate Once A Week - Volume 4 Cover"
                     className="object-cover rounded-md"
                   />

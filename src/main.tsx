@@ -7,7 +7,7 @@ import "./locales/i18n"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/shuu-ni-ichido-classmate-wo-kau-hanashi">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
