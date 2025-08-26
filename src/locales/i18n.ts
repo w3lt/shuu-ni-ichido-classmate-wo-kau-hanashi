@@ -39,7 +39,6 @@ i18n
   .use(LanguageDetector)
   .init({
     resources,
-    lng: "vi",
     fallbackLng: "vi",
     interpolation: {
       escapeValue: false // react already escapes
