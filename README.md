@@ -42,7 +42,7 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div>
 
 | Technology | Version | Purpose |
 |------------|---------|---------|
