@@ -9,7 +9,15 @@ export default function WebNovelLanding() {
 
   useEffect(() => {
     document.title = t("title")
-    document.querySelector("meta[name=\"description\"]")?.setAttribute("content", t("description"))
+    const metaDescription = document.querySelector("meta[name=\"description\"]")
+    if (metaDescription) {
+      metaDescription.setAttribute("content", t("description"))
+    } else {
+      const meta = document.createElement("meta")
+      meta.name = "description"
+      meta.content = t("description")
+      document.head.appendChild(meta)
+    }
   }, [t, i18n.language])
 
   return (
