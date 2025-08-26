@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { motion, useInView, type Variants } from "framer-motion"
 import { useRef } from "react"
+import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router"
 
 interface Props {
@@ -12,6 +13,7 @@ export default function CtASection({
   staggerContainer,
   fadeInUp
 }: Props) {
+  const { t } = useTranslation("pages", { keyPrefix: "landingPage.ctaSection" })
   const navigate = useNavigate()
   const ctaRef = useRef(null)
   const ctaInView = useInView(ctaRef, { once: true, margin: "-100px" })
@@ -26,10 +28,10 @@ export default function CtASection({
     >
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <motion.h2 className="font-sans font-bold text-3xl md:text-4xl text-foreground" variants={fadeInUp}>
-          Start Reading Today
+          {t("title")}
         </motion.h2>
         <motion.p className="text-xl text-muted-foreground" variants={fadeInUp}>
-          Dive into this touching story about unexpected connections and the beauty of human relationships.
+          {t("description")}
         </motion.p>
         <motion.div className="flex flex-col sm:flex-row gap-4 justify-center" variants={fadeInUp}>
           <Button
@@ -37,7 +39,7 @@ export default function CtASection({
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg border border-primary/20"
             onClick={() => navigate("/reading")}
           >
-            Begin Reading
+            {t("beginReading")}
           </Button>
         </motion.div>
       </div>

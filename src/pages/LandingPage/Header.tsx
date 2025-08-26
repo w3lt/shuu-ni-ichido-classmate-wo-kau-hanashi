@@ -10,7 +10,7 @@ import i18n from "i18next"
 export default function Header() {
   const navigate = useNavigate()
   const { t } = useTranslation("pages", { keyPrefix: "landingPage.header" })
-  const [lang, setLang] = useState<"EN" | "VI">("EN")
+  const [lang, setLang] = useState<"EN" | "VI">(i18n.language === "vi" ? "VI" : "EN")
 
   const changeLang = (lang: "EN" | "VI") => {
     setLang(lang)
@@ -44,8 +44,8 @@ export default function Header() {
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
-                  className="hover:bg-primary transition-all duration-300 font-medium px-4 py-2 text-sm h-10 gap-2
-                            focus-visible:ring-0 focus-visible:ring-offset-0 focus:outline-none"
+                  className="hover:bg-primary transition-all duration-300 font-medium px-4 py-2 text-sm gap-2
+                            focus-visible:ring-0 focus-visible:ring-offset-0 focus:outline-none h-[36px]"
                 >
                   <Globe className="w-4 h-4" />
                   {lang}

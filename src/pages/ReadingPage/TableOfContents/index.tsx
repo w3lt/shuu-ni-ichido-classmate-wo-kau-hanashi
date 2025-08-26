@@ -3,8 +3,10 @@ import ReadingPageContext from "../ReadingPageContext"
 import { Badge } from "@/components/ui/badge"
 import { motion } from "framer-motion"
 import Arc from "./Arc"
+import { useTranslation } from "react-i18next"
 
 export default function TableOfContents() {
+  const { t } = useTranslation("pages", { keyPrefix: "readingPage.tableOfContents" })
   const { sidebarCollapsed, ln } = useContext(ReadingPageContext)
   const [collapsedArcs, setCollapsedArcs] = useState<Set<number>>(new Set())
 
@@ -31,11 +33,11 @@ export default function TableOfContents() {
       <div className="p-6 min-w-[320px]">
         <div className="mb-6">
           <h2 className="font-bold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Table of Contents
+            {t("title")}
           </h2>
           <div className="flex items-center gap-2 mt-2">
             <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-              9 Chapters
+              {ln.arcs.reduce((acc, arc) => acc + arc.chapters.length, 0)} {t("chapters")}
             </Badge>
           </div>
         </div>

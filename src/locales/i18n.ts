@@ -1,5 +1,6 @@
 import i18n, { type Resource } from "i18next"
 import { initReactI18next } from "react-i18next"
+import LanguageDetector from "i18next-browser-languagedetector"
 
 const modules = import.meta.glob("@/locales/**/*.json", { eager: true, query: "?raw", import: "default" })
 const resources: Resource = {}
@@ -33,15 +34,20 @@ for (const path in modules) {
   }
 }
 
-console.log("Loaded languages:", resources)
-
 i18n
   .use(initReactI18next) // passes i18n instance to react-i18next
+  .use(LanguageDetector)
   .init({
     resources,
-    fallbackLng: "en",
+    lng: "vi",
+    fallbackLng: "vi",
     interpolation: {
       escapeValue: false // react already escapes
+    },
+    supportedLngs: ["en", "vi"],
+    detection: {
+      order: ["querystring", "localStorage", "cookie", "navigator", "htmlTag"],
+      caches: ["localStorage", "cookie"], // saves selected language
     }
   })
 
