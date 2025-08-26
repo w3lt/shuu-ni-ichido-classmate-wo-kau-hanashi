@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/shuu-ni-ichido-classmate-wo-kau-hanashi">
       <App />
     </BrowserRouter>
   </StrictMode>,
