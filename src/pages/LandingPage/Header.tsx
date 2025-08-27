@@ -3,12 +3,11 @@ import { useNavigate } from "react-router"
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion"
 import { useState } from "react"
-import i18n from "i18next"
 import LanguageSelector from "@/components/LanguageSelector"
 
 export default function Header() {
   const navigate = useNavigate()
-  const { t } = useTranslation("pages", { keyPrefix: "landingPage.header" })
+  const { t, i18n } = useTranslation("pages", { keyPrefix: "landingPage.header" })
   const [lang, setLang] = useState<"en" | "vi">(i18n.language === "vi" ? "vi" : "en")
 
   const changeLang = (lang: "en" | "vi") => {
