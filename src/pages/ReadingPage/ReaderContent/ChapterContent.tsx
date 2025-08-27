@@ -17,7 +17,7 @@ export default function ChapterContent({
 
   return (
     <motion.div
-      className="prose prose-lg max-w-none mb-16"
+      className="prose prose-lg max-w-none mb-8 md:mb-16"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
