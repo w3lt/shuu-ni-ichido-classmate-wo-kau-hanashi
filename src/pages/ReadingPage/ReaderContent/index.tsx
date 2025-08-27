@@ -14,7 +14,7 @@ export default function ReaderContent() {
 
   return (
     <main className="flex-1 transition-all duration-300 overflow-hidden">
-      <div className="max-w-4xl mx-auto px-4 md:px-8 py-6 md:py-12">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-4 md:py-12">
         {/* Chapter Header */}
         <ChapterHeader
           chapter={currentChapter.chapterNumber}

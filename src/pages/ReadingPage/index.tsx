@@ -46,7 +46,7 @@ export default function ReadingPage() {
     >
       <div className="min-h-screen bg-gradient-to-br from-background via-card to-background">
         <ReadingPageHeader />
-        <div className="flex pt-[73px] md:pt-[73px]">
+        <div className="flex pt-[49px] md:pt-[73px]">
           <TableOfContents />
           <ReaderContent />
         </div>
