@@ -22,7 +22,7 @@ export default function ReadingPageHeader() {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-4 py-4 bg-background/70 backdrop-blur-xl border-b border-primary/10 shadow-lg shadow-primary/5">
+    <header className="fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-4 md:py-4 bg-background/70 backdrop-blur-xl border-b border-primary/10 shadow-lg shadow-primary/5">
       <div className="max-w-full mx-auto flex items-center justify-between">
         <div className="flex md:hidden items-center gap-3 flex-1">
           <Button

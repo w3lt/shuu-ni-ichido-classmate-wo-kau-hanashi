@@ -35,7 +35,7 @@ export default function TableOfContents() {
           />
 
           <motion.aside
-            className="fixed md:sticky top-[65px] md:top-[73px] md:h-[calc(100vh-73px)] left-0 h-full bg-background/95 md:bg-background/80 backdrop-blur-xl border-r border-primary/10 overflow-y-auto shadow-lg z-50 md:z-auto"
+            className="fixed md:sticky top-[49px] md:top-[73px] md:h-[calc(100vh-73px)] left-0 h-full bg-background/95 md:bg-background/80 backdrop-blur-xl border-r border-primary/10 overflow-y-auto shadow-lg z-50 md:z-auto"
             initial={{ x: -320 }}
             animate={{ x: 0 }}
             exit={{ x: -320 }}

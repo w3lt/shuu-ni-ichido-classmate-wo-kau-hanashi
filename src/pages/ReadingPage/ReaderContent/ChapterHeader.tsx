@@ -22,7 +22,7 @@ export default function ChapterHeader({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <div className="flex items-center gap-3 mb-6">
+      <div className="flex items-center gap-3 mb-4">
         <Badge className="bg-gradient-to-r from-primary to-secondary text-primary-foreground border-0 px-4 py-1">
           {t("chapter")} {chapter}
         </Badge>
