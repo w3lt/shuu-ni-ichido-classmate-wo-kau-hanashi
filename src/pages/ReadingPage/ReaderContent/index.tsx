@@ -13,8 +13,8 @@ export default function ReaderContent() {
   const currentChapterIndex = currentChapter.chapterNumber - currentArc.chapters[0].number + 1
 
   return (
-    <main className="flex-1 transition-all duration-300">
-      <div className="max-w-4xl mx-auto px-8 py-12">
+    <main className="flex-1 transition-all duration-300 overflow-hidden">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-6 md:py-12">
         {/* Chapter Header */}
         <ChapterHeader
           chapter={currentChapter.chapterNumber}

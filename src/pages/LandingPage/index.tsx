@@ -5,8 +5,15 @@ import HeroSection from "./HeroSection"
 import AboutSection from "./AboutSection"
 import CtASection from "./CallToActionSection"
 import Footer from "./Footer"
+import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button"
+import { useNavigate } from "react-router"
+import { useTranslation } from "react-i18next"
 
 export default function LandingPage() {
+  const navigate = useNavigate()
+  const { t } = useTranslation("pages", { keyPrefix: "landingPage" })
+
   const fadeInUp: Variants = {
     hidden: { opacity: 0, y: 60 },
     visible: {
@@ -44,6 +51,16 @@ export default function LandingPage() {
         fadeInUp={fadeInUp}
       /> */}
 
+      <motion.div className="md:hidden flex flex-col sm:flex-row gap-4 justify-center mx-4" variants={fadeInUp}>
+        <Button
+          size="lg"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
+          onClick={() => navigate("/reading")}
+        >
+          {t("header.startReading")}
+        </Button>
+      </motion.div>
+
       {/* About Section */}
       <AboutSection
         staggerContainer={staggerContainer}
@@ -55,7 +72,7 @@ export default function LandingPage() {
         staggerContainer={staggerContainer}
         fadeInUp={fadeInUp}
       />
-      
+
       {/* Footer */}
       <Footer />
     </div>

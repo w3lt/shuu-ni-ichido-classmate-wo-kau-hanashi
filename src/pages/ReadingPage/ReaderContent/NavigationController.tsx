@@ -30,7 +30,7 @@ export default function NavigationController() {
 
   return (
     <motion.div
-      className="flex justify-between items-center py-8 border-t border-primary/20"
+      className="flex justify-between items-center py-4 md:py-8 border-t border-primary/20"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.6 }}
@@ -41,8 +41,10 @@ export default function NavigationController() {
         className="bg-background/80 border-primary/20 text-muted-foreground"
         onClick={goPreviousChapter}
       >
-        <ChevronLeft className="h-4 w-4 mr-2" />
-        {t("previousChapter")}
+        <ChevronLeft className="h-4 w-4 md:mr-2" />
+        <span className="hidden md:inline">
+          {t("previousChapter")}
+        </span>
       </Button>
 
       <div className="text-center bg-background/80 backdrop-blur-sm rounded-full px-6 py-2 border border-primary/20">
@@ -54,8 +56,10 @@ export default function NavigationController() {
         onClick={goNextChapter}
         disabled={currentArc.position === ln.arcs.length && currentChapterIndex === currentArc.chapters.length}
       >
-        {t("nextChapter")}
-        <ChevronRight className="h-4 w-4 ml-2" />
+        <span className="hidden md:inline">
+          {t("nextChapter")}
+        </span>
+        <ChevronRight className="h-4 w-4 md:ml-2" />
       </Button>
     </motion.div>
   )

@@ -44,13 +44,13 @@ export default function ReadingPage() {
         setCurrentChapter
       }}
     >
-    <div className="min-h-screen bg-gradient-to-br from-background via-card to-background">
-      <ReadingPageHeader />
-      <div className="flex pt-[73px]">
-        <TableOfContents />
-        <ReaderContent />
+      <div className="min-h-screen bg-gradient-to-br from-background via-card to-background">
+        <ReadingPageHeader />
+        <div className="flex pt-[73px] md:pt-[73px]">
+          <TableOfContents />
+          <ReaderContent />
+        </div>
       </div>
-    </div>
     </ReadingPageContextProvider>
   )
 }
