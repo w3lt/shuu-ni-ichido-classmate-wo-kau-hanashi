@@ -44,6 +44,18 @@ export default function Header() {
             />
           </motion.div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="md:hidden items-center"
+        >
+          <LanguageSelector
+            lang={lang}
+            onChange={changeLang}
+          />
+        </motion.div>
       </nav>
     </header>
   )
