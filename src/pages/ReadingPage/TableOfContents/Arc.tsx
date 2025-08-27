@@ -20,22 +20,20 @@ export default function Arc({
 }: Props) {
   return (
     <motion.div
-      key={arc.position}
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.3, delay: (arc.position - 1) * 0.1 }}
       className="group"
     >
       <div
-        className="flex items-center justify-between p-3 cursor-pointer hover:bg-primary/5 rounded-lg transition-all duration-200 border border-transparent hover:border-primary/20"
-        // onClick={() => toggleArc(arc.position)}
+        className="flex items-center justify-between p-2 md:p-3 cursor-pointer hover:bg-primary/5 rounded-lg transition-all duration-200 border border-transparent hover:border-primary/20"
         onClick={() => onToggle()}
       >
-        <div className="flex items-center gap-3">
-          <div className="w-6 h-6 aspect-square rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white text-xs font-bold">
+        <div className="flex items-center gap-2 md:gap-3 flex-1 min-w-0">
+          <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white text-xs font-bold flex-shrink-0">
             {arc.position}
           </div>
-          <div>
+          <div className="min-w-0 flex-1">
             <h3 className="font-semibold text-sm text-foreground">{arc.title}</h3>
           </div>
         </div>

@@ -2,19 +2,18 @@ import { Button } from "@/components/ui/button"
 import { useNavigate } from "react-router"
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion"
-import { Globe } from "lucide-react"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { useState } from "react"
 import i18n from "i18next"
+import LanguageSelector from "@/components/LanguageSelector"
 
 export default function Header() {
   const navigate = useNavigate()
   const { t } = useTranslation("pages", { keyPrefix: "landingPage.header" })
-  const [lang, setLang] = useState<"EN" | "VI">(i18n.language === "vi" ? "VI" : "EN")
+  const [lang, setLang] = useState<"en" | "vi">(i18n.language === "vi" ? "vi" : "en")
 
-  const changeLang = (lang: "EN" | "VI") => {
+  const changeLang = (lang: "en" | "vi") => {
     setLang(lang)
-    i18n.changeLanguage(lang.toLowerCase())
+    i18n.changeLanguage(lang)
   }
 
   return (
@@ -40,35 +39,10 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button
-                  variant="ghost"
-                  className="hover:bg-primary transition-all duration-300 font-medium px-4 py-2 text-sm gap-2
-                            focus-visible:ring-0 focus-visible:ring-offset-0 focus:outline-none h-[36px]"
-                >
-                  <Globe className="w-4 h-4" />
-                  {lang}
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent
-                align="end"
-                className="w-32 bg-background border border-primary shadow-lg p-1"
-              >
-                <DropdownMenuItem
-                  onClick={() => changeLang("EN")}
-                  className="cursor-pointer focus:bg-primary/70 hover:text-primary-foreground"
-                >
-                  🇺🇸 English
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => changeLang("VI")}
-                  className="cursor-pointer focus:bg-primary/70 hover:text-primary-foreground"
-                >
-                  🇻🇳 Tiếng Việt
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <LanguageSelector
+              lang={lang}
+              onChange={changeLang}
+            />
           </motion.div>
         </div>
       </nav>

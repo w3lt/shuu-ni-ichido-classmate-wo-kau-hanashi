@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import { useContext } from "react"
 import ReadingPageContext from "../ReadingPageContext"
 import Markdown from "react-markdown"
+import { cn } from "@/lib/utils"
 
 interface Props {
   content: string
@@ -21,11 +22,15 @@ export default function ChapterContent({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
     >
-      <Card className="bg-background/80 backdrop-blur-sm border-primary/20 shadow-lg hover:shadow-xl transition-all duration-300">
-        <CardContent className="p-12">
+      <Card className="py-0 md:py-6 bg-background/80 backdrop-blur-sm border-primary/20 shadow-lg hover:shadow-xl transition-all duration-300">
+        <CardContent className="p-4 md:p-12">
           <div
-            className="text-foreground leading-relaxed"
-            style={{ fontSize: `${fontSize}px`, lineHeight: 1.8 }}
+            className={cn(
+              "text-foreground leading-relaxed",
+              `md:text-[${fontSize}px] md:leading-[1.8]`,
+              "text-[16px] leading-[1.6]"
+            )
+            }
           >
             <Markdown
               components={{

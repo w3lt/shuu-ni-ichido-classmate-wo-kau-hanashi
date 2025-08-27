@@ -17,7 +17,7 @@ export default function ChapterHeader({
 
   return (
     <motion.div
-      className="mb-12"
+      className="mb-2 md:mb-12"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
@@ -28,7 +28,7 @@ export default function ChapterHeader({
         </Badge>
         <div className="h-px bg-gradient-to-r from-primary/30 to-transparent flex-1"></div>
       </div>
-      <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent mb-4 leading-tight">
+      <h1 className="text-2xl md:text-5xl font-bold bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent mb-4 leading-tight">
         {title} ({index})
       </h1>
     </motion.div>
