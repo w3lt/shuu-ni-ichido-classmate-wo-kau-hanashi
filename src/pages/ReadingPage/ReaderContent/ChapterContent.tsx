@@ -13,7 +13,6 @@ export default function ChapterContent({
   content
 }: Props) {
   const { fontSize } = useContext(ReadingPageContext)
-  console.log("Content:", content)
 
   return (
     <motion.div
@@ -27,10 +26,9 @@ export default function ChapterContent({
           <div
             className={cn(
               "text-foreground leading-relaxed",
-              `md:text-[${fontSize}px] md:leading-[1.8]`,
-              "text-[16px] leading-[1.6]"
-            )
-            }
+              "leading-[1.6] md:leading-[1.8]"
+            )}
+            style={{ fontSize: window.innerWidth >= 768 ? fontSize : 16 }}
           >
             <Markdown
               components={{
