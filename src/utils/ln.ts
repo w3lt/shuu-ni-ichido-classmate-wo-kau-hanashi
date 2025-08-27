@@ -1,6 +1,7 @@
 export interface Chapter {
   number: number
   content: string
+  released: boolean
 }
 
 export interface Arc {
@@ -31,7 +32,8 @@ export default class Ln {
           if (match) {
             return {
               number: parseInt(match[1], 10),
-              content: content as string
+              content: content as string,
+              released: (content as string).trim().length > 0
             }
           }
           return null

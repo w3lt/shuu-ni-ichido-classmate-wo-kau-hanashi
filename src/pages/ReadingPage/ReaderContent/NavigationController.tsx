@@ -28,6 +28,9 @@ export default function NavigationController() {
     }))
   }
 
+  const isAbleToGoNext= currentArc.position === ln.arcs.length &&
+                        (currentChapterIndex === currentArc.chapters.length || currentArc.chapters[currentChapterIndex]?.released === false)
+
   return (
     <motion.div
       className="flex justify-between items-center py-4 md:py-8 border-t border-primary/20"
@@ -54,7 +57,7 @@ export default function NavigationController() {
       <Button
         className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-primary-foreground border-0 shadow-lg hover:shadow-xl transition-all duration-300"
         onClick={goNextChapter}
-        disabled={currentArc.position === ln.arcs.length && currentChapterIndex === currentArc.chapters.length}
+        disabled={isAbleToGoNext}
       >
         <span className="hidden md:inline">
           {t("nextChapter")}

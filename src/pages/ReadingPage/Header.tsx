@@ -29,12 +29,12 @@ export default function ReadingPageHeader() {
             variant="ghost"
             size="sm"
             onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
-            className="hover:bg-primary/10 transition-all duration-200 p-2"
+            className="hover:bg-primary/70 transition-all duration-200 p-2"
           >
             <BookOpen className="h-4 w-4" />
           </Button>
           <a href="/">
-            <Button variant="ghost" size="sm" className="hover:bg-primary/10 transition-all duration-200 p-2">
+            <Button variant="ghost" size="sm" className="hover:bg-primary/70 transition-all duration-200 p-2">
               <Home className="h-4 w-4" />
             </Button>
           </a>

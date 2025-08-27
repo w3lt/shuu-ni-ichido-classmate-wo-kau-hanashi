@@ -5,6 +5,8 @@ import {
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import ReadingPageContext from "../ReadingPageContext"
+import { Badge } from "@/components/ui/badge"
+import { useTranslation } from "react-i18next"
 
 interface Props {
   chapter: Chapter
@@ -17,9 +19,11 @@ export default function Chapter({
   index,
   arcNumber
 }: Props) {
+  const { t } = useTranslation("pages", { keyPrefix: "readingPage.tableOfContents" })
   const { currentChapter, setCurrentChapter } = useContext(ReadingPageContext)
 
   const goToChapter = () => {
+    if (!chapter.released) return
     setCurrentChapter({
       chapterNumber: chapter.number,
       arcNumber
@@ -51,14 +55,14 @@ export default function Chapter({
               )}
             </div>
           </div>
-          {/* {chapter.status === "coming-soon" && (
+          {!chapter.released && (
             <Badge
               variant="secondary"
               className="text-xs ml-2 bg-secondary/20 text-secondary-foreground border-secondary/30 cursor-default"
             >
-              Soon
+              {t("upcoming")}
             </Badge>
-          )} */}
+          )}
         </div>
       </div>
     </motion.div>
