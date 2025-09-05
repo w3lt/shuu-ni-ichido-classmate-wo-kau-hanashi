@@ -5,12 +5,13 @@ import { Globe } from "lucide-react"
 interface Props {
   lang: "vi" | "en"
   onChange: (lang: "vi" | "en") => void
+  className?: string
 }
 
-export default function LanguageSelector({ lang, onChange }: Props) {
+export default function LanguageSelector({ lang, onChange, className }: Props) {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger asChild className={className}>
         <Button
           variant="ghost"
           className="hover:bg-primary transition-all duration-300 font-medium px-4 py-2 text-sm gap-2

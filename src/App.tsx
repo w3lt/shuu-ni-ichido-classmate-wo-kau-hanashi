@@ -1,8 +1,10 @@
 import { Route, Routes } from "react-router"
-import LandingPage from "./pages/LandingPage"
-import ReadingPage from "./pages/ReadingPage"
 import { useTranslation } from "react-i18next"
-import { useEffect } from "react"
+import { lazy, useEffect } from "react"
+
+const LandingPage = lazy(() => import("./pages/LandingPage"))
+const ReadingPage = lazy(() => import("./pages/ReadingPage"))
+const CharactersPage = lazy(() => import("./pages/CharactersPage"))
 
 export default function WebNovelLanding() {
   const { t, i18n } = useTranslation("metadata")
@@ -24,6 +26,7 @@ export default function WebNovelLanding() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/reading" element={<ReadingPage />} />
+      <Route path="/characters" element={<CharactersPage />} />
     </Routes>
   )
 }
