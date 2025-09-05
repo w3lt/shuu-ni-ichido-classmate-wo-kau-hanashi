@@ -12,8 +12,8 @@ export default class CharacterManager {
         name: characterData.name,
         height: characterData.height,
         birthday: characterData.birthday,
-        avatarUrl: key.replace("information.json", "avatar.jpeg"),
-        characterImgUrl: key.replace("information.json", "character_img.jpeg"),
+        avatarUrl: `/characters/${characterData.id}/avatar.jpeg`,
+        characterImgUrl: `/characters/${characterData.id}/character_img.jpeg`,
         color: characterData.color
       })
     }
