@@ -14,7 +14,8 @@ export default class CharacterManager {
         birthday: characterData.birthday,
         avatarUrl: `/characters/${characterData.id}/avatar.jpeg`,
         characterImgUrl: `/characters/${characterData.id}/character_img.jpeg`,
-        color: characterData.color
+        color: characterData.color,
+        numberOfVoices: characterData.numberOfVoices ?? 0
       })
     }
   }

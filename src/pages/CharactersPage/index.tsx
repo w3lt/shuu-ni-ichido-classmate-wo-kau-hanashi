@@ -4,6 +4,7 @@ import CharacterNavigationBar from "./CharacterNavigationBar"
 import CharacterPage from "./CharacterPage"
 import { useEffect, useState } from "react"
 import { useSearchParams } from "react-router"
+import Header from "./Header"
 
 export default function CharactersPage() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -24,6 +25,7 @@ export default function CharactersPage() {
         setChosenCharacter
       }}
     >
+      <Header selectedCharacter={chosenCharacter} />
       <div className="min-h-screen bg-gradient-to-br from-background via-card to-background">
         <CharacterPage character={chosenCharacter} key={chosenCharacter.name} />
         <CharacterNavigationBar className="fixed bottom-2 left-2 right-2 w-full flex justify-center" />

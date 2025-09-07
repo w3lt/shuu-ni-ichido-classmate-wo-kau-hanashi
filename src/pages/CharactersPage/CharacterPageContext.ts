@@ -8,6 +8,7 @@ export interface Character {
   avatarUrl: string
   characterImgUrl: string
   color: string
+  numberOfVoices: number
 }
 
 const CharacterPageContext = createContext<{

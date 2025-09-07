@@ -23,6 +23,19 @@ export default function Header() {
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.05 }}
+          >
+            <Button
+              variant="ghost"
+              className="hover:bg-transparent hover:text-primary transition-all duration-300"
+              onClick={() => navigate("/characters")}
+            >
+              {t("characters")}
+            </Button>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             <Button

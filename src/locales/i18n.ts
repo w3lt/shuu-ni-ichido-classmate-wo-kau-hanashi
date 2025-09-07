@@ -34,8 +34,6 @@ for (const path in modules) {
   }
 }
 
-console.log("Loaded languages:", resources)
-
 i18n
   .use(initReactI18next) // passes i18n instance to react-i18next
   .use(LanguageDetector)
